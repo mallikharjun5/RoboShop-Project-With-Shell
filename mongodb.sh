@@ -2,7 +2,7 @@
 
 USERID=$(id -u)         # TO KNOW ABOUT ROOT USER
 R="\e[31m"
-G="\e[32m"
+G="\e[32m"              # COLOR CODES
 Y="\e[33m"
 N="\e[0m"
 
