@@ -1,7 +1,7 @@
 #!/bin/bash
 
-USERID=$(id -u)
-R="\e[31m"
+USERID=$(id -u)             # to know about the user
+R="\e[31m"                  # color codes
 G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
