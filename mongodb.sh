@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USERID=$(id -u)
+USERID=$(id -u)         # TO KNOW ABOUT ROOT USER
 R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
@@ -44,3 +44,4 @@ VALIDATE $? "Allowing Remote Connections To MongoDB"
 
 systemctl restart mongod
 VALIDATE $? "Restarted MongoDB"
+
